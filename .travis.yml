@@ -1,0 +1,10 @@
+language: java
+jdk:
+- oraclejdk8
+#addons:
+#  sonarqube: true
+#env:
+#  global:
+#  - secure: "XCPKYm7x6slh32B1yEelLa3Ffi+U8Rr9WagItEm0Pd5b1+41eY9pgp2bETtir3ZlB9bSP0kTzZDZfULiC5yKdWhRT+uciyaEk7C2Jghf0WX8PeO8REOUNI/CzHqsMB9yGsISW/3X4mf9EHxQK40QnbMKfsqqWuGJ7F4rahY22/f3noJ7BWc0kpiXkJUyrrEJMdTn1opxGjSRiaMBYTJW+S4GWOj7IxZZQCWXT+rU9gegyiV5l6DfzpZIMjRnEs3ByoCOmp/e8vyT5O04EXq3sXiUrGd1FmLeyQbf/cVZpnjpYJSsmjXX3PdZGqogrJcR0QMMHWyF4vsDDpklwtsW/MOg81aB8yFdznx4WLujKWabl5J+ALVDGhsuLL+cECGNnl7oDXLn7XrNaBRAtdYsd4xDd+72ICqrGonp+IsPNFqzwpSahQW+TrGLSDadtJmtZwTNphhwxkbcbdlgNmnEyqqE6cj9GLCRjsYW21Ok8O+xGBurGZAM/VUnVTn5/kL+udWQUIr3dsami9CiQpOrccjfbhcHTFc/ZKlw5HwWBCFhO+9IQhIg9j55ShKM+6tLXbw7ZMwrt5GF2FPJdxGqK5xPEqmNpHJQ0am8Sa5wZFVKarfUC922eJMMjSFUyHxI4iSTSnEI+NU1ZNzpVF7BxX52bLXVlBjmzfRy+YuWHrQ="
+#script:
+#  - ./gradlew sonarqube -Dsonar.host.url=https://sonarqube.com -Dsonar.login=$SONAR_TOKEN
