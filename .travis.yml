@@ -1,10 +1,10 @@
 language: java
 jdk:
 - oraclejdk8
-#addons:
-#  sonarqube: true
-#env:
-#  global:
-#  - secure: "XCPKYm7x6slh32B1yEelLa3Ffi+U8Rr9WagItEm0Pd5b1+41eY9pgp2bETtir3ZlB9bSP0kTzZDZfULiC5yKdWhRT+uciyaEk7C2Jghf0WX8PeO8REOUNI/CzHqsMB9yGsISW/3X4mf9EHxQK40QnbMKfsqqWuGJ7F4rahY22/f3noJ7BWc0kpiXkJUyrrEJMdTn1opxGjSRiaMBYTJW+S4GWOj7IxZZQCWXT+rU9gegyiV5l6DfzpZIMjRnEs3ByoCOmp/e8vyT5O04EXq3sXiUrGd1FmLeyQbf/cVZpnjpYJSsmjXX3PdZGqogrJcR0QMMHWyF4vsDDpklwtsW/MOg81aB8yFdznx4WLujKWabl5J+ALVDGhsuLL+cECGNnl7oDXLn7XrNaBRAtdYsd4xDd+72ICqrGonp+IsPNFqzwpSahQW+TrGLSDadtJmtZwTNphhwxkbcbdlgNmnEyqqE6cj9GLCRjsYW21Ok8O+xGBurGZAM/VUnVTn5/kL+udWQUIr3dsami9CiQpOrccjfbhcHTFc/ZKlw5HwWBCFhO+9IQhIg9j55ShKM+6tLXbw7ZMwrt5GF2FPJdxGqK5xPEqmNpHJQ0am8Sa5wZFVKarfUC922eJMMjSFUyHxI4iSTSnEI+NU1ZNzpVF7BxX52bLXVlBjmzfRy+YuWHrQ="
-#script:
-#  - ./gradlew sonarqube -Dsonar.host.url=https://sonarqube.com -Dsonar.login=$SONAR_TOKEN
+addons:
+  sonarqube: true
+env:
+  global:
+  - secure: "Of0PvP2/3zeu0FONlBtMMkIH2/cBbLosqc2mMY3ncW1rcHJrxVdr/6gAW+4/Hp8eyWivb5LLNvkr/STOcg3zPdM6RZp8L95gDjeiLdHtVJDHEfaKcODeEK2jft1p9alRbw5g/9GwqkNwbjYvpRV//VQ143UQNODr/IacNfEtb6YyeQbqf9xUMUYIrfK0lf+Xm25LsYKi/OZP5IqMdd8G4TLoZoiFx3leTc6lBk6UmeMr5TuAOcMFpK2h+cOrPUsGGOHkEBBglWJ/DVhbVMSrDzUsWFGvPAIQgxY3+1DPQv7mNzWcDuwb8xkjo3Fi9ABoThmA9rYeJ8XkbBhIzJfgGs4f8nzBR+ENzhYHoafyahA1CT0S19gl50ojoub7x7C4a4f+C6nZ9CNaCm5Wm6EeKBSQLEMdWXVah7R48fMRIDRCGrLMMAiIpAZqLPVayQ3D7F1+UiJvpFjmFUSdUJFC1ZgKjibqtG64fuyOLniWt1ERVlwtKNVhM+2cg8v11JzdXzuJBjMgIz2EnG8tafCGlPgzGSI+f6DTYoRsdyoTxo0AzTKolQ6J7NynOy5Moo/kJzqDljzRRzmPbSiRf6lXxGL/0qZbKrVavmd36EiPFFQd5U5OxMJkEvmD7d/tIqb5g34f1fPqXlLuUMibzVEEieeIyEXPb0GnoS2AR4teMO8="
+script:
+  - ./gradlew sonarqube -Dsonar.host.url=https://sonarqube.com -Dsonar.login=$SONAR_TOKEN
