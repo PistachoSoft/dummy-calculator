@@ -1,2 +1,2 @@
 # travis-sonar-gradle
-A simple test
+A simple test.
