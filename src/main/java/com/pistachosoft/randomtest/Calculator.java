@@ -1,4 +1,4 @@
-package com.pistachosoft;
+package com.pistachosoft.randomtest;
 
 public class Calculator {
 

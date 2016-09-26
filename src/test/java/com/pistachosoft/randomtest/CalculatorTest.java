@@ -1,4 +1,4 @@
-package com.pistachosoft;
+package com.pistachosoft.randomtest;
 
 import org.junit.Before;
 import org.junit.Test;

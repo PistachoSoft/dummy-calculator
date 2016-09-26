@@ -1,4 +1,4 @@
-group 'com.pistachosoft'
+group 'com.pistachosoft.randomtest'
 version '1.0-SNAPSHOT'
 
 buildscript {
